@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.0.3 - 2026-01-07
+
+*   Updated `pubspec.yaml` to include `homepage` and `issue_tracker` fields for improved project metadata.
+*   Version bumped to `0.0.3`.
+
 ## 0.0.2 - 2026-01-07
 
 *   Converted package to pure Dart, removing Flutter dependencies.
@@ -7,6 +12,10 @@
 *   Improved localization fallback logic in `ScareQuestion` and `ScareOption`.
 *   Added English translations for all questions in `assets/questions.json`.
 *   Made `collection` an explicit dependency in `pubspec.yaml`.
+*   Updated `pubspec.yaml` to version `0.0.2` and `test` dependency to `^1.28.0`.
+*   Improved test robustness for `ScareEngine`'s `getNextQuestion` by handling multiple equally relevant questions.
+*   Changed default fallback locale in `ScareOption` and `ScareQuestion` to `'en'`.
+*   Added comment to `PsychProfile.dominantFear` for clarity on default behavior.
 
 ## 0.0.1 - 2026-01-07
 

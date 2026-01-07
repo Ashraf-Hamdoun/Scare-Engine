@@ -122,6 +122,14 @@ void main() {
         optionB:
             ScareOption(text: {"en": "Option B"}, impact: FearType.isolation),
       ),
+      ScareQuestion(
+        id: "q4",
+        questionText: {"en": "Another Paranoia question (both options paranoia)"},
+        optionA:
+            ScareOption(text: {"en": "Option A"}, impact: FearType.paranoia),
+        optionB:
+            ScareOption(text: {"en": "Option B"}, impact: FearType.paranoia),
+      ),
     ];
 
     test('getNextQuestion throws StateError if question pool is empty', () {
@@ -139,14 +147,16 @@ void main() {
     });
 
     test(
-        'getNextQuestion returns a highly relevant question based on dominant fear (score 2)',
+        'getNextQuestion prefers questions that strongly match the dominant fear',
         () {
+       // With paranoia as the dominant fear, the engine should select "q1" or "q4",
+      // as both of their options are related to paranoia (score 2).
       final profile = PsychProfile(scores: {FearType.paranoia: 1});
       final engine =
           ScareEngine(profile: profile, questionPool: mockQuestions);
 
       final question = engine.getNextQuestion(locale: 'en');
-      expect(question.id, "q1");
+      expect(['q1', 'q4'].contains(question.id), isTrue);
     });
     
     test('processUserChoice updates PsychProfile correctly', () {

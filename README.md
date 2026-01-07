@@ -19,7 +19,7 @@ To use this package, add `scare_engine` to your `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  scare_engine: ^0.0.1
+  scare_engine: ^0.0.3
 ```
 
 Then, run `dart pub get` to install the package.
