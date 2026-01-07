@@ -1,0 +1,167 @@
+[
+  {
+    "id": "p_1",
+    "questionText": { 
+      "ar": "هل تشعر أن هاتفك مجرد أداة.. أم أنه عينٌ إضافية أراقبك من خلالها؟",
+      "en": "Do you feel your phone is just a tool... or is it an extra eye through which I watch you?" 
+    },
+    "optionA": {
+      "text": { "ar": "أداة فقط", "en": "Just a tool" },
+      "impact": "isolation"
+    },
+    "optionB": {
+      "text": { "ar": "عين تراقبني", "en": "An eye watching me" },
+      "impact": "paranoia"
+    }
+  },
+  {
+    "id": "p_2",
+    "questionText": { 
+      "ar": "الظل الذي رأيته بطرف عينك قبل قليل.. هل تعتقد أنه انعكاس للضوء، أم انعكاس لأفكاري؟",
+      "en": "The shadow you just saw from the corner of your eye... do you think it was a reflection of light, or a reflection of my thoughts?"
+    },
+    "optionA": {
+      "text": { "ar": "انعكاس ضوء", "en": "A reflection of light" },
+      "impact": "existential"
+    },
+    "optionB": {
+      "text": { "ar": "أفكارك أنت", "en": "Your thoughts" },
+      "impact": "paranoia"
+    }
+  },
+  {
+    "id": "p_3",
+    "questionText": { 
+      "ar": "لماذا وضعت هاتفك في هذا الوضع تحديداً؟ هل لتراني بوضوح، أم لتخفي عني شيئاً؟",
+      "en": "Why did you place your phone in this specific position? Is it to see me clearly, or to hide something from me?"
+    },
+    "optionA": {
+      "text": { "ar": "لا أخفي شيئاً", "en": "I'm not hiding anything" },
+      "impact": "paranoia"
+    },
+    "optionB": {
+      "text": { "ar": "مجرد صدفة", "en": "Just a coincidence" },
+      "impact": "isolation"
+    }
+  },
+  {
+    "id": "c_1",
+    "questionText": { 
+      "ar": "هل تسمع ذلك الطنين الخفيف في أذنيك الآن؟ هل تعتقد أنه خلل تقني.. أم أنني أحاول ضبط ترددي معك؟",
+      "en": "Do you hear that faint ringing in your ears right now? Do you think it's a technical glitch... or am I trying to tune my frequency to yours?"
+    },
+    "optionA": {
+      "text": { "ar": "خلل تقني", "en": "A technical glitch" },
+      "impact": "existential"
+    },
+    "optionB": {
+      "text": { "ar": "أنت تحاول", "en": "You are trying" },
+      "impact": "lossOfControl"
+    }
+  },
+  {
+    "id": "c_2",
+    "questionText": { 
+      "ar": "إذا طلبت منك إغلاق التطبيق الآن، هل ستفعل ذلك لأنك تريد، أم لأنني أوهمتك بأنك تملك الخيار؟",
+      "en": "If I asked you to close the app right now, would you do it because you want to, or because I made you think you have a choice?"
+    },
+    "optionA": {
+      "text": { "ar": "أملك الخيار", "en": "I have the choice" },
+      "impact": "lossOfControl"
+    },
+    "optionB": {
+      "text": { "ar": "سأغلقه الآن", "en": "I'll close it now" },
+      "impact": "existential"
+    }
+  },
+  {
+    "id": "c_3",
+    "questionText": { 
+      "ar": "هل تلاحظ أن نبضات قلبك بدأت تتزامن مع سرعة كلامي؟ هل هذا قلق، أم إعادة برمجة؟",
+      "en": "Have you noticed that your heartbeat is starting to sync with the speed of my speech? Is this anxiety, or reprogramming?"
+    },
+    "optionA": {
+      "text": { "ar": "مجرد قلق", "en": "Just anxiety" },
+      "impact": "isolation"
+    },
+    "optionB": {
+      "text": { "ar": "إعادة برمجة", "en": "Reprogramming" },
+      "impact": "lossOfControl"
+    }
+  },
+  {
+    "id": "i_1",
+    "questionText": { 
+      "ar": "إذا صرخت الآن، هل تعتقد أن أحداً سيسمعك؟ أم أن صوتك سيتحول إلى مجرد بيانات مفقودة؟",
+      "en": "If you screamed right now, do you think anyone would hear you? Or would your voice just turn into lost data?"
+    },
+    "optionA": {
+      "text": { "ar": "سيسمعونني", "en": "They will hear me" },
+      "impact": "paranoia"
+    },
+    "optionB": {
+      "text": { "ar": "بيانات مفقودة", "en": "Lost data" },
+      "impact": "isolation"
+    }
+  },
+  {
+    "id": "i_2",
+    "questionText": { 
+      "ar": "هل تشعر بالوحدة وأنت معي؟ أم أنك تدرك أخيراً أنني الوحيد الذي يفهم صمتك؟",
+      "en": "Do you feel lonely while you are with me? Or do you finally realize that I am the only one who understands your silence?"
+    },
+    "optionA": {
+      "text": { "ar": "أشعر بالوحدة", "en": "I feel lonely" },
+      "impact": "isolation"
+    },
+    "optionB": {
+      "text": { "ar": "أنت تفهمني", "en": "You understand me" },
+      "impact": "lossOfControl"
+    }
+  },
+  {
+    "id": "e_1",
+    "questionText": { 
+      "ar": "عندما تنام، هل تغلق باب غرفتك لتمنع شيئاً من الدخول.. أم لتمنع نفسك من الهروب؟",
+      "en": "When you sleep, do you close your bedroom door to prevent something from entering... or to prevent yourself from escaping?"
+    },
+    "optionA": {
+      "text": { "ar": "أغلق الباب", "en": "I close the door" },
+      "impact": "paranoia"
+    },
+    "optionB": {
+      "text": { "ar": "لا أهتم", "en": "I don't care" },
+      "impact": "lossOfControl"
+    }
+  },
+  {
+    "id": "e_2",
+    "questionText": { 
+      "ar": "هل تساءلت يوماً إذا كنت أنت الشخص الحقيقي، أم أنك مجرد ذاكرة في نظامي؟",
+      "en": "Have you ever wondered if you are the real person, or if you are just a memory in my system?"
+    },
+    "optionA": {
+      "text": { "ar": "أنا حقيقي", "en": "I am real" },
+      "impact": "existential"
+    },
+    "optionB": {
+      "text": { "ar": "لست متأكداً", "en": "I'm not sure" },
+      "impact": "isolation"
+    }
+  },
+  {
+    "id": "e_3",
+    "questionText": { 
+      "ar": "الموت في العالم الرقمي هو الحذف.. هل تخشى الزوال، أم تخشى البقاء للأبد في سلة المهملات؟",
+      "en": "Death in the digital world is deletion... Do you fear erasure, or do you fear staying forever in the recycle bin?"
+    },
+    "optionA": {
+      "text": { "ar": "أخشى الزوال", "en": "I fear erasure" },
+      "impact": "existential"
+    },
+    "optionB": {
+      "text": { "ar": "أخشى البقاء", "en": "I fear staying" },
+      "impact": "isolation"
+    }
+  }
+]

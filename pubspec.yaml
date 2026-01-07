@@ -1,0 +1,13 @@
+name: scare_engine
+description: A pure Dart package for psychological vulnerability assessment.
+version: 0.0.1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  collection: ^1.19.1
+
+dev_dependencies:
+  test: ^1.25.7
+  lints: ^4.0.0
